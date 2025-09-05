@@ -89,14 +89,14 @@ model = joblib.load('saved_model/ufc_winner_predictor_model.joblib')
 # probabilities = model.predict_proba(prediction_row)
 ```
 
-## Future Improvements
+### Future Improvements
 
-[cite_start]Based on the initial project plan[cite: 1], several exciting enhancements could be made:
+Based on the initial project plan, several exciting enhancements could be made:
 
--   [cite_start]**Implement a Meta-Elo System:** Develop the custom, dynamic Elo rating system to better capture fighter momentum and quality of opposition[cite: 1].
--   [cite_start]**Model Comparison:** Train and evaluate other models like Random Forest [cite: 1] [cite_start]or Logistic Regression [cite: 1] to benchmark against the XGBoost performance.
--   [cite_start]**Web Interface:** Deploy the model into a simple web application using a framework like Streamlit for easy, interactive predictions[cite: 1].
--   [cite_start]**Advanced Visualizations:** Create fighter profile radar charts to visually compare opponent stats head-to-head[cite: 1].
+-   **Implement a Meta-Elo System:** Develop a custom, dynamic Elo rating system to better capture fighter momentum and quality of opposition.
+-   **Model Comparison:** Train and evaluate other models like Random Forest or Logistic Regression to benchmark against the XGBoost performance.
+-   **Web Interface:** Deploy the model into a simple web application using a framework like Streamlit for easy, interactive predictions.
+-   **Advanced Visualizations:** Create fighter profile radar charts to visually compare opponent stats head-to-head.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
